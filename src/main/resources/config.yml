@@ -1,0 +1,16 @@
+lightblockName: "&eLight block" # Supports color codes
+
+# Crafting recipe for the item
+# 1 2 3
+# 4 5 6
+# 7 8 9
+
+1: GOLD_NUGGET
+2: GOLD_NUGGET
+3: GOLD_NUGGET
+4: GOLD_NUGGET
+5: GLOWSTONE
+6: GOLD_NUGGET
+7: GOLD_NUGGET
+8: GOLD_NUGGET
+9: GOLD_NUGGET

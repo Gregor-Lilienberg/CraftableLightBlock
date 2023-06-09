@@ -1,0 +1,6 @@
+name: CraftableLightBlock
+version: '${project.version}'
+main: dev.gregzee.craftablelightblock.CraftableLightBlock
+api-version: 1.19
+authors: [Gregzee]
+description: A plugin that adds the lightblock as a craftable item into vanilla minecraft
