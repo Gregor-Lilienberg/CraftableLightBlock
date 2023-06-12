@@ -1,5 +1,6 @@
 package dev.gregzee.craftablelightblock;
 
+import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.ShapedRecipe;
@@ -16,7 +17,7 @@ public final class CraftableLightBlock extends JavaPlugin {
 
         ItemStack lightblock = new ItemStack(Material.LIGHT);
         ItemMeta lightMeta = lightblock.getItemMeta();
-        lightMeta.setDisplayName(getConfig().getString("lightblockName"));
+        lightMeta.setDisplayName(ChatColor.translateAlternateColorCodes('&', getConfig().getString("lightblockName")));
         lightblock.setItemMeta(lightMeta);
 
         ShapedRecipe lightBlock = new ShapedRecipe(lightblock);
